@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@700&display=swap');
+
+body {
+    background-image: url('../img/fonHome.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+.navbar-brand {
+        font-family: 'Grandstander', cursive;
+        font-size: 32px;
+       
+    } 
+}
+.header {
+    margin-top: 20px;
+    color: rgb(20, 9, 9);
+    font-family: 'Grandstander', cursive;
+    font-size: 32px;
+  
+}
+.forecast_item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(174, 255, 167, 0.712);
+    border: rgb(200, 245, 247) 1px solid;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+    .forecast_item_bold {
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .btn {
+        margin-left: auto;
+    }
+    p{
+        margin-right: 20px;
+    }
+}
+.card {
+    background-color: rgba(232, 255, 236, 0.8);
+    .fore_item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      
+      
+    
+        p{
+            margin-left: auto;
+            font-weight: bold;
+        }
+        
+    }
+}
+.spiner {
+display: flex;
+justify-content: center;
+margin-top: 100px;
+
+}
+.forecast_country {
+    display: flex;
+    justify-content: space-around; 
+}

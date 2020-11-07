@@ -1,0 +1,26 @@
+body {
+  background-image: url("../img/fonHome.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  body .header {
+    text-align: center;
+    margin-top: 10px; }
+  body .totals h4 {
+    text-align: center;
+    color: #fc0f0f; }
+  body .inputTotal {
+    display: flex;
+    justify-content: center; }
+    body .inputTotal input {
+      margin-top: 7px;
+      border: royalblue 2px solid;
+      border-radius: 5px;
+      width: 60%; }
+  body .btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; }
+  body .individual_totals h4 {
+    text-align: center;
+    color: #fc0f0f; }

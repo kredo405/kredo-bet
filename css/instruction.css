@@ -1,0 +1,13 @@
+.headerText {
+  font-weight: bold;
+  color: #161f13; }
+
+body {
+  background-image: url("../img/fonHome.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  body p {
+    color: #171a17; }
+  body .text {
+    background-color: rgba(148, 168, 226, 0.658); }

@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@700&display=swap');
+
+
+.navbar-brand {
+    font-family: 'Grandstander', cursive;
+    font-size: 32px;
+   
+}
+.logoLig {
+    width: 8%;
+    height: 8%;
+}
+
+.logo {
+    width: 7%;
+    height: 7%;
+}
+.inputDate {
+    margin-top: 40px;
+}
+
+.item_roll {
+    width: 10%;
+    background-color: rgb(234, 234, 247);
+}
+.item_league {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    background-color: rgb(228, 228, 247);
+}
+.item_elem_league {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    background-color: rgb(228, 228, 245);
+}
+.name_team {
+    color: rgb(15, 14, 14);
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+.center {
+    display: flex;
+    justify-items: center;
+}
+.comparison_teams {
+    h4{
+        margin-bottom: 20px;
+        background-color:  rgb(191, 255, 228);
+        padding: 10px;
+    }
+    p{
+        font-weight: bold;
+        font-size: 18px;
+    }
+}
+.team_comparison_teams {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.h2h {
+    h5{
+        margin-bottom: 20px;
+        background-color:  rgb(191, 255, 228);
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .addItemH2h {
+        text-align: start;
+    }
+}
+.homeDrawsAway {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bets_item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bets_menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.checkedLeagueItem {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.items {
+    margin-top: 20px;
+}
+body {
+    background-image: url('../img/fonHome.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.block_header {
+    background-color: rgba(201, 253, 196, 0.5);
+    margin-top: 30px;
+    padding: 10px;
+    border: solid, 1px, rgb(201, 253, 196);
+    border-radius: 10px;
+}
+.boldParagraph {
+    font-size: 18px;
+    font-weight: bold;
+}
+.fonItems {
+    background-color: rgba(201, 253, 196, 0.8);
+  
+}
+.check {
+    width: 50px;
+    height: 20px;
+  
+}
+.checkBox {
+    margin-left: auto;
+}
+.date {
+    border: green, solid, 2px;
+    border-radius: 5px;
+}
+.odds {
+    margin-left: auto;
+}
+.team_comparison_teams {
+    margin-bottom: 20px;
+}
+li{
+    list-style-type: none; 
+}
+.statistic20Data {
+    display: flex;
+    justify-content: flex-start;
+  p{
+    font-weight: bold;
+    margin-left: auto;
+  }
+}
+
+.statisic20Matches{
+    margin-top: 30px;
+    h5{
+        background-color:  rgb(191, 255, 228);
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+}
+.statistic20Home {
+    display: flex;
+    justify-content: center;
+}
+.statisticData {
+    display: flex;
+    justify-content: flex-start;
+  p{
+    font-weight: bold;
+    margin-left: auto;
+  }
+}
+.statisticHeader {
+    display: flex;
+    justify-content: center;
+}
+.statistic_last5 {
+    h5{
+        background-color:  rgb(191, 255, 228);
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+}
+.winning_percent {
+    margin-top: 40px;
+}
+.winning_percent_header {
+    margin-bottom: 20px;
+    background-color:  rgb(191, 255, 228);
+    padding: 10px;
+}
+.statistic {
+    margin-top: 40px;
+}
+.text_forecast {
+    h5 {
+        background-color:  rgb(191, 255, 228);
+        margin-top: 20px;
+        padding: 10px;
+    }
+}
+.approximate_score {
+    .score_text {
+        display: flex;
+        justify-content: center;
+        h3{
+            color: rgb(15, 1, 0);
+        }
+    }
+    .score_header {
+        background-color:  rgb(191, 255, 228);
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+}
+
+.bets_menu {
+    p{
+        font-weight: bold;
+    }
+}
+.itemBetItog {
+    display: flex;
+    justify-content: space-around;
+     
+    p{
+        font-weight: bold;
+    }
+}
+.colorGreen {
+    color: rgb(81, 196, 5);
+    margin-left: auto;
+}
+.colorRed {
+    color: rgb(235, 0, 0);
+    margin-left: auto;
+}
+
+.outcome {
+    margin-top: 20px;
+    h5{
+        margin-bottom: 20px;
+        background-color:  rgb(191, 255, 228);
+        padding: 10px;
+    }
+    .favoritMatch {
+        display: flex;
+        justify-content: center;
+        color: rgb(15, 0, 223);
+
+    }
+}
+.bets {
+    margin-top: 20px;
+}
+.forecastTranslate {
+  text-align: start;
+ 
+}

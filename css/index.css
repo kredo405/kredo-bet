@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Grandstander:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Grandstander:wght@700&display=swap");
+body {
+  background-image: url("../img/fonHome.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  body .navbar-brand {
+    font-family: 'Grandstander', cursive;
+    font-size: 32px; }
+
+.header {
+  opacity: 0;
+  color: #f31010; }
+
+.elem {
+  display: none;
+  opacity: 0; }
+  .elem h3 {
+    color: red; }
+  .elem .stat {
+    background-color: rgba(159, 236, 255, 0.719);
+    padding: 20px;
+    margin-top: 10px; }
+    .elem .stat h5 {
+      color: black; }
+  .elem .forecast {
+    background-color: rgba(159, 236, 255, 0.719);
+    padding: 20px;
+    margin-top: 10px; }
+    .elem .forecast h5 {
+      color: black; }
+  .elem .calc {
+    background-color: rgba(159, 236, 255, 0.719);
+    padding: 20px;
+    margin-top: 10px; }
+    .elem .calc h5 {
+      color: black; }
+  .elem .instruction {
+    background-color: rgba(159, 236, 255, 0.719);
+    padding: 20px;
+    margin-top: 10px; }
+    .elem .instruction h5 {
+      color: black; }
